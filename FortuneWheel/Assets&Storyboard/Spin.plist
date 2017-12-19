@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SpinLabel</key>
+	<array>
+		<string>$500</string>
+		<string>$900</string>
+		<string>$500</string>
+		<string>$200</string>
+		<string>$300</string>
+		<string>$500</string>
+		<string>$100</string>
+		<string>$300</string>
+		<string>$1000</string>
+		<string>Bankrupt</string>
+		<string>$100000</string>
+		<string>Bankrupt</string>
+		<string>$2500</string>
+		<string>$500</string>
+		<string>$10</string>
+		<string>$250</string>
+		<string>$600</string>
+		<string>Bankrupt</string>
+		<string>$550</string>
+		<string>$650</string>
+	</array>
+</dict>
+</plist>

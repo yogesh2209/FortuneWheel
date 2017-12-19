@@ -1,0 +1,1171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5803A5971FCDF1DE001A82D4 /* FWFinishGameViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5803A5961FCDF1DE001A82D4 /* FWFinishGameViewController .swift */; };
+		580E97CE1FB4E1F6004089D4 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580E97CD1FB4E1F6004089D4 /* GameKit.framework */; };
+		580E97D11FB4E4D5004089D4 /* FWSpinningWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580E97D01FB4E4D5004089D4 /* FWSpinningWheelViewController.swift */; };
+		584378DF1FE3C7B2001958B7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584378DE1FE3C7B2001958B7 /* AVFoundation.framework */; };
+		584378E21FE3C7E7001958B7 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 584378E11FE3C7E7001958B7 /* sound.mp3 */; };
+		5870B05F1FBA4C02006A7DC0 /* FWGamePlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870B05E1FBA4C02006A7DC0 /* FWGamePlayingViewController.swift */; };
+		589AE6551FC23FAE001A864A /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 589AE6541FC23FAE001A864A /* Data.plist */; };
+		58B137A71FB1408E004CB4BD /* FWMenuProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B137A61FB1408E004CB4BD /* FWMenuProfileTableViewCell.swift */; };
+		58B137A91FB14098004CB4BD /* FWMenuOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B137A81FB14098004CB4BD /* FWMenuOptionsTableViewCell.swift */; };
+		58B137AB1FB14163004CB4BD /* FWMenuSpacingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B137AA1FB14163004CB4BD /* FWMenuSpacingTableViewCell.swift */; };
+		58B5613C1FB136180056B717 /* FWMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B5613B1FB136180056B717 /* FWMainViewController.swift */; };
+		58B5613F1FB136390056B717 /* FWBaseClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B5613E1FB136390056B717 /* FWBaseClassViewController.swift */; };
+		58B561421FB137190056B717 /* FWSlideOutLeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B561411FB137190056B717 /* FWSlideOutLeftMenuViewController.swift */; };
+		58C011A61FB1287A004B34F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C011A51FB1287A004B34F1 /* AppDelegate.swift */; };
+		58C011AB1FB1287A004B34F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C011A91FB1287A004B34F1 /* Main.storyboard */; };
+		58C011AE1FB1287A004B34F1 /* FortuneWheel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58C011AC1FB1287A004B34F1 /* FortuneWheel.xcdatamodeld */; };
+		58C011B01FB1287A004B34F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C011AF1FB1287A004B34F1 /* Assets.xcassets */; };
+		58C011B31FB1287A004B34F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C011B11FB1287A004B34F1 /* LaunchScreen.storyboard */; };
+		58C011BE1FB1287B004B34F1 /* FortuneWheelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C011BD1FB1287B004B34F1 /* FortuneWheelTests.swift */; };
+		58C011C91FB1287B004B34F1 /* FortuneWheelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C011C81FB1287B004B34F1 /* FortuneWheelUITests.swift */; };
+		58C011EE1FB129A8004B34F1 /* FWConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C011ED1FB129A8004B34F1 /* FWConstant.swift */; };
+		58EBB76D1FC0C4E800FC99C7 /* FWWordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EBB76C1FC0C4E800FC99C7 /* FWWordCollectionViewCell.swift */; };
+		58ED13301FD72E85009B63EB /* FWAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED132F1FD72E85009B63EB /* FWAboutViewController.swift */; };
+		58ED13321FD72E8E009B63EB /* FWHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED13311FD72E8E009B63EB /* FWHelpViewController.swift */; };
+		58ED13341FD73E91009B63EB /* FWScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED13331FD73E91009B63EB /* FWScoreViewController.swift */; };
+		58ED13371FD740E3009B63EB /* FWScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED13361FD740E3009B63EB /* FWScoreTableViewCell.swift */; };
+		58ED13391FD740F4009B63EB /* FWSpacingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED13381FD740F4009B63EB /* FWSpacingTableViewCell.swift */; };
+		58ED133B1FD753C5009B63EB /* Spin.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58ED133A1FD753C5009B63EB /* Spin.plist */; };
+		58EF1CB81FB2677100EE4436 /* FWCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF1CB71FB2677100EE4436 /* FWCustomLabel.swift */; };
+		58EF1CBC1FB2EA8700EE4436 /* FWNewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF1CBB1FB2EA8700EE4436 /* FWNewGameViewController.swift */; };
+		58EF1CBE1FB2EAD000EE4436 /* FWCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EF1CBD1FB2EAD000EE4436 /* FWCustomButton.swift */; };
+		656F7F7EB9561D44C110512A /* Pods_FortuneWheelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FC764CDE04255BF57FCE53 /* Pods_FortuneWheelUITests.framework */; };
+		77C970FC30E88214A01553C3 /* Pods_FortuneWheel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785F99197B5C51847493D456 /* Pods_FortuneWheel.framework */; };
+		A5607FE0388EA822131B3737 /* Pods_FortuneWheelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC0C71FAC2C38BA7AAD8612 /* Pods_FortuneWheelTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58C011BA1FB1287B004B34F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58C0119A1FB1287A004B34F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58C011A11FB1287A004B34F1;
+			remoteInfo = FortuneWheel;
+		};
+		58C011C51FB1287B004B34F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58C0119A1FB1287A004B34F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58C011A11FB1287A004B34F1;
+			remoteInfo = FortuneWheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44C06C1F5A76F5E568727051 /* Pods-FortuneWheelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneWheelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortuneWheelUITests/Pods-FortuneWheelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57484DEF5DF83767645AC7BF /* Pods-FortuneWheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneWheel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortuneWheel/Pods-FortuneWheel.debug.xcconfig"; sourceTree = "<group>"; };
+		5803A5961FCDF1DE001A82D4 /* FWFinishGameViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FWFinishGameViewController .swift"; sourceTree = "<group>"; };
+		580E97CD1FB4E1F6004089D4 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		580E97D01FB4E4D5004089D4 /* FWSpinningWheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWSpinningWheelViewController.swift; sourceTree = "<group>"; };
+		584378DD1FE3B5D0001958B7 /* FortuneWheel-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FortuneWheel-Bridging-Header.h"; sourceTree = "<group>"; };
+		584378DE1FE3C7B2001958B7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		584378E11FE3C7E7001958B7 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		5870B05E1FBA4C02006A7DC0 /* FWGamePlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWGamePlayingViewController.swift; sourceTree = "<group>"; };
+		589AE6541FC23FAE001A864A /* Data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		58B137A61FB1408E004CB4BD /* FWMenuProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWMenuProfileTableViewCell.swift; sourceTree = "<group>"; };
+		58B137A81FB14098004CB4BD /* FWMenuOptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWMenuOptionsTableViewCell.swift; sourceTree = "<group>"; };
+		58B137AA1FB14163004CB4BD /* FWMenuSpacingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWMenuSpacingTableViewCell.swift; sourceTree = "<group>"; };
+		58B5613B1FB136180056B717 /* FWMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWMainViewController.swift; sourceTree = "<group>"; };
+		58B5613E1FB136390056B717 /* FWBaseClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWBaseClassViewController.swift; sourceTree = "<group>"; };
+		58B561411FB137190056B717 /* FWSlideOutLeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWSlideOutLeftMenuViewController.swift; sourceTree = "<group>"; };
+		58C011A21FB1287A004B34F1 /* FortuneWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C011A51FB1287A004B34F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58C011AA1FB1287A004B34F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58C011AD1FB1287A004B34F1 /* FortuneWheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FortuneWheel.xcdatamodel; sourceTree = "<group>"; };
+		58C011AF1FB1287A004B34F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58C011B21FB1287A004B34F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58C011B41FB1287A004B34F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C011B91FB1287B004B34F1 /* FortuneWheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneWheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C011BD1FB1287B004B34F1 /* FortuneWheelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelTests.swift; sourceTree = "<group>"; };
+		58C011BF1FB1287B004B34F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C011C41FB1287B004B34F1 /* FortuneWheelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneWheelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C011C81FB1287B004B34F1 /* FortuneWheelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelUITests.swift; sourceTree = "<group>"; };
+		58C011CA1FB1287B004B34F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C011E11FB1291B004B34F1 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		58C011E21FB1291B004B34F1 /* SUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SUtility.m; sourceTree = "<group>"; };
+		58C011E31FB1291C004B34F1 /* YKNetworkAlertClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKNetworkAlertClass.h; sourceTree = "<group>"; };
+		58C011E41FB1291C004B34F1 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		58C011E51FB1291C004B34F1 /* SUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SUtility.h; sourceTree = "<group>"; };
+		58C011E61FB1291C004B34F1 /* YKNetworkAlertClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKNetworkAlertClass.m; sourceTree = "<group>"; };
+		58C011ED1FB129A8004B34F1 /* FWConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWConstant.swift; sourceTree = "<group>"; };
+		58EBB76C1FC0C4E800FC99C7 /* FWWordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWWordCollectionViewCell.swift; sourceTree = "<group>"; };
+		58ED132F1FD72E85009B63EB /* FWAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWAboutViewController.swift; sourceTree = "<group>"; };
+		58ED13311FD72E8E009B63EB /* FWHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWHelpViewController.swift; sourceTree = "<group>"; };
+		58ED13331FD73E91009B63EB /* FWScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWScoreViewController.swift; sourceTree = "<group>"; };
+		58ED13361FD740E3009B63EB /* FWScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWScoreTableViewCell.swift; sourceTree = "<group>"; };
+		58ED13381FD740F4009B63EB /* FWSpacingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWSpacingTableViewCell.swift; sourceTree = "<group>"; };
+		58ED133A1FD753C5009B63EB /* Spin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Spin.plist; sourceTree = "<group>"; };
+		58EF1CB01FB25D1100EE4436 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.27.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		58EF1CB21FB25D1400EE4436 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4.27.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		58EF1CB71FB2677100EE4436 /* FWCustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWCustomLabel.swift; sourceTree = "<group>"; };
+		58EF1CB91FB2738F00EE4436 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58EF1CBB1FB2EA8700EE4436 /* FWNewGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWNewGameViewController.swift; sourceTree = "<group>"; };
+		58EF1CBD1FB2EAD000EE4436 /* FWCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWCustomButton.swift; sourceTree = "<group>"; };
+		5FBDFAC3549B26AB36BD364D /* Pods-FortuneWheel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneWheel.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortuneWheel/Pods-FortuneWheel.release.xcconfig"; sourceTree = "<group>"; };
+		785F99197B5C51847493D456 /* Pods_FortuneWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortuneWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF1890F93FDD365BB934656 /* Pods-FortuneWheelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneWheelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortuneWheelTests/Pods-FortuneWheelTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1FC764CDE04255BF57FCE53 /* Pods_FortuneWheelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortuneWheelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A755D34096F9B82089517031 /* Pods-FortuneWheelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneWheelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortuneWheelTests/Pods-FortuneWheelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC60486AFF015FDD5AF5EE9F /* Pods-FortuneWheelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneWheelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortuneWheelUITests/Pods-FortuneWheelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFC0C71FAC2C38BA7AAD8612 /* Pods_FortuneWheelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortuneWheelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58C0119F1FB1287A004B34F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584378DF1FE3C7B2001958B7 /* AVFoundation.framework in Frameworks */,
+				77C970FC30E88214A01553C3 /* Pods_FortuneWheel.framework in Frameworks */,
+				580E97CE1FB4E1F6004089D4 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C011B61FB1287B004B34F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5607FE0388EA822131B3737 /* Pods_FortuneWheelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C011C11FB1287B004B34F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656F7F7EB9561D44C110512A /* Pods_FortuneWheelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580E97CF1FB4E4C3004089D4 /* SpinningWheelController */ = {
+			isa = PBXGroup;
+			children = (
+				580E97D01FB4E4D5004089D4 /* FWSpinningWheelViewController.swift */,
+			);
+			path = SpinningWheelController;
+			sourceTree = "<group>";
+		};
+		584378E01FE3C7D4001958B7 /* SoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				584378E11FE3C7E7001958B7 /* sound.mp3 */,
+			);
+			path = SoundFiles;
+			sourceTree = "<group>";
+		};
+		58B137A11FB1404A004CB4BD /* SlideOutMenuCells */ = {
+			isa = PBXGroup;
+			children = (
+				58B137A61FB1408E004CB4BD /* FWMenuProfileTableViewCell.swift */,
+				58B137A81FB14098004CB4BD /* FWMenuOptionsTableViewCell.swift */,
+				58B137AA1FB14163004CB4BD /* FWMenuSpacingTableViewCell.swift */,
+			);
+			path = SlideOutMenuCells;
+			sourceTree = "<group>";
+		};
+		58B5613A1FB136000056B717 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58B5613B1FB136180056B717 /* FWMainViewController.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		58B5613D1FB136290056B717 /* BaseClassViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58B5613E1FB136390056B717 /* FWBaseClassViewController.swift */,
+			);
+			path = BaseClassViewController;
+			sourceTree = "<group>";
+		};
+		58B561401FB136FE0056B717 /* SlideOutMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				58ED132E1FD72E7A009B63EB /* MoreViewController */,
+				58B561411FB137190056B717 /* FWSlideOutLeftMenuViewController.swift */,
+			);
+			path = SlideOutMenuController;
+			sourceTree = "<group>";
+		};
+		58C011991FB1287A004B34F1 = {
+			isa = PBXGroup;
+			children = (
+				58C011A41FB1287A004B34F1 /* FortuneWheel */,
+				58C011BC1FB1287B004B34F1 /* FortuneWheelTests */,
+				58C011C71FB1287B004B34F1 /* FortuneWheelUITests */,
+				58C011A31FB1287A004B34F1 /* Products */,
+				AE41A26EB72BDE34E31E662F /* Pods */,
+				EC453128ECE78B7B54B8A038 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58C011A31FB1287A004B34F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58C011A21FB1287A004B34F1 /* FortuneWheel.app */,
+				58C011B91FB1287B004B34F1 /* FortuneWheelTests.xctest */,
+				58C011C41FB1287B004B34F1 /* FortuneWheelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C011A41FB1287A004B34F1 /* FortuneWheel */ = {
+			isa = PBXGroup;
+			children = (
+				584378E01FE3C7D4001958B7 /* SoundFiles */,
+				58C011D71FB128BB004B34F1 /* AppDelegate */,
+				58C011D91FB128BB004B34F1 /* ConstantFiles */,
+				58C011D61FB128BB004B34F1 /* Controller */,
+				58C011D81FB128BB004B34F1 /* CustomClasses */,
+				58C011DC1FB128BB004B34F1 /* Model */,
+				58C011DA1FB128BB004B34F1 /* View */,
+				58C011DB1FB128BB004B34F1 /* Assets&Storyboard */,
+				58C011DD1FB12909004B34F1 /* Resources */,
+			);
+			path = FortuneWheel;
+			sourceTree = "<group>";
+		};
+		58C011BC1FB1287B004B34F1 /* FortuneWheelTests */ = {
+			isa = PBXGroup;
+			children = (
+				58C011BD1FB1287B004B34F1 /* FortuneWheelTests.swift */,
+				58C011BF1FB1287B004B34F1 /* Info.plist */,
+			);
+			path = FortuneWheelTests;
+			sourceTree = "<group>";
+		};
+		58C011C71FB1287B004B34F1 /* FortuneWheelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58C011C81FB1287B004B34F1 /* FortuneWheelUITests.swift */,
+				58C011CA1FB1287B004B34F1 /* Info.plist */,
+			);
+			path = FortuneWheelUITests;
+			sourceTree = "<group>";
+		};
+		58C011D61FB128BB004B34F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58EF1CBA1FB2EA6F00EE4436 /* CommonControllers */,
+				58B561401FB136FE0056B717 /* SlideOutMenuController */,
+				58B5613D1FB136290056B717 /* BaseClassViewController */,
+				58B5613A1FB136000056B717 /* MainViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		58C011D71FB128BB004B34F1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				58C011A51FB1287A004B34F1 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		58C011D81FB128BB004B34F1 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				58C011E81FB1295A004B34F1 /* ButtonClasses */,
+				58C011EA1FB1295A004B34F1 /* LabelClasses */,
+				58C011E71FB1295A004B34F1 /* TextFieldClasses */,
+				58C011E91FB1295A004B34F1 /* ViewClasses */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		58C011D91FB128BB004B34F1 /* ConstantFiles */ = {
+			isa = PBXGroup;
+			children = (
+				58C011ED1FB129A8004B34F1 /* FWConstant.swift */,
+			);
+			path = ConstantFiles;
+			sourceTree = "<group>";
+		};
+		58C011DA1FB128BB004B34F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58C011EC1FB12990004B34F1 /* CollectionViewCells */,
+				58C011EB1FB12990004B34F1 /* TableViewCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58C011DB1FB128BB004B34F1 /* Assets&Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				58EF1CB91FB2738F00EE4436 /* GoogleService-Info.plist */,
+				58C011A91FB1287A004B34F1 /* Main.storyboard */,
+				58C011AF1FB1287A004B34F1 /* Assets.xcassets */,
+				58C011B11FB1287A004B34F1 /* LaunchScreen.storyboard */,
+				58C011B41FB1287A004B34F1 /* Info.plist */,
+				58C011AC1FB1287A004B34F1 /* FortuneWheel.xcdatamodeld */,
+				589AE6541FC23FAE001A864A /* Data.plist */,
+				58ED133A1FD753C5009B63EB /* Spin.plist */,
+			);
+			path = "Assets&Storyboard";
+			sourceTree = "<group>";
+		};
+		58C011DC1FB128BB004B34F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58C011DD1FB12909004B34F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58EF1CAB1FB25AC900EE4436 /* Frameworks */,
+				58C011DE1FB12909004B34F1 /* Library */,
+				58C011DF1FB12909004B34F1 /* Reachability */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		58C011DE1FB12909004B34F1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		58C011DF1FB12909004B34F1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				584378DD1FE3B5D0001958B7 /* FortuneWheel-Bridging-Header.h */,
+				58C011E41FB1291C004B34F1 /* Reachability.h */,
+				58C011E11FB1291B004B34F1 /* Reachability.m */,
+				58C011E51FB1291C004B34F1 /* SUtility.h */,
+				58C011E21FB1291B004B34F1 /* SUtility.m */,
+				58C011E31FB1291C004B34F1 /* YKNetworkAlertClass.h */,
+				58C011E61FB1291C004B34F1 /* YKNetworkAlertClass.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		58C011E71FB1295A004B34F1 /* TextFieldClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextFieldClasses;
+			sourceTree = "<group>";
+		};
+		58C011E81FB1295A004B34F1 /* ButtonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				58EF1CBD1FB2EAD000EE4436 /* FWCustomButton.swift */,
+			);
+			path = ButtonClasses;
+			sourceTree = "<group>";
+		};
+		58C011E91FB1295A004B34F1 /* ViewClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewClasses;
+			sourceTree = "<group>";
+		};
+		58C011EA1FB1295A004B34F1 /* LabelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				58EF1CB71FB2677100EE4436 /* FWCustomLabel.swift */,
+			);
+			path = LabelClasses;
+			sourceTree = "<group>";
+		};
+		58C011EB1FB12990004B34F1 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				58ED13351FD74099009B63EB /* ScoreCells */,
+				58B137A11FB1404A004CB4BD /* SlideOutMenuCells */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		58C011EC1FB12990004B34F1 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				58EBB76C1FC0C4E800FC99C7 /* FWWordCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		58ED132E1FD72E7A009B63EB /* MoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58ED132F1FD72E85009B63EB /* FWAboutViewController.swift */,
+				58ED13311FD72E8E009B63EB /* FWHelpViewController.swift */,
+			);
+			path = MoreViewController;
+			sourceTree = "<group>";
+		};
+		58ED13351FD74099009B63EB /* ScoreCells */ = {
+			isa = PBXGroup;
+			children = (
+				58ED13361FD740E3009B63EB /* FWScoreTableViewCell.swift */,
+				58ED13381FD740F4009B63EB /* FWSpacingTableViewCell.swift */,
+			);
+			path = ScoreCells;
+			sourceTree = "<group>";
+		};
+		58EF1CAB1FB25AC900EE4436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		58EF1CBA1FB2EA6F00EE4436 /* CommonControllers */ = {
+			isa = PBXGroup;
+			children = (
+				580E97CF1FB4E4C3004089D4 /* SpinningWheelController */,
+				58EF1CBB1FB2EA8700EE4436 /* FWNewGameViewController.swift */,
+				5870B05E1FBA4C02006A7DC0 /* FWGamePlayingViewController.swift */,
+				5803A5961FCDF1DE001A82D4 /* FWFinishGameViewController .swift */,
+				58ED13331FD73E91009B63EB /* FWScoreViewController.swift */,
+			);
+			path = CommonControllers;
+			sourceTree = "<group>";
+		};
+		AE41A26EB72BDE34E31E662F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57484DEF5DF83767645AC7BF /* Pods-FortuneWheel.debug.xcconfig */,
+				5FBDFAC3549B26AB36BD364D /* Pods-FortuneWheel.release.xcconfig */,
+				A755D34096F9B82089517031 /* Pods-FortuneWheelTests.debug.xcconfig */,
+				7CF1890F93FDD365BB934656 /* Pods-FortuneWheelTests.release.xcconfig */,
+				44C06C1F5A76F5E568727051 /* Pods-FortuneWheelUITests.debug.xcconfig */,
+				CC60486AFF015FDD5AF5EE9F /* Pods-FortuneWheelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC453128ECE78B7B54B8A038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				584378DE1FE3C7B2001958B7 /* AVFoundation.framework */,
+				580E97CD1FB4E1F6004089D4 /* GameKit.framework */,
+				58EF1CB21FB25D1400EE4436 /* FBSDKLoginKit.framework */,
+				58EF1CB01FB25D1100EE4436 /* FBSDKCoreKit.framework */,
+				785F99197B5C51847493D456 /* Pods_FortuneWheel.framework */,
+				EFC0C71FAC2C38BA7AAD8612 /* Pods_FortuneWheelTests.framework */,
+				A1FC764CDE04255BF57FCE53 /* Pods_FortuneWheelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58C011A11FB1287A004B34F1 /* FortuneWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C011CD1FB1287B004B34F1 /* Build configuration list for PBXNativeTarget "FortuneWheel" */;
+			buildPhases = (
+				69325BFC07DC68DABD50B78B /* [CP] Check Pods Manifest.lock */,
+				58C0119E1FB1287A004B34F1 /* Sources */,
+				58C0119F1FB1287A004B34F1 /* Frameworks */,
+				58C011A01FB1287A004B34F1 /* Resources */,
+				E139C93331C1207445344272 /* [CP] Embed Pods Frameworks */,
+				384A2B7A91EE9FF7593FED44 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortuneWheel;
+			productName = FortuneWheel;
+			productReference = 58C011A21FB1287A004B34F1 /* FortuneWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58C011B81FB1287B004B34F1 /* FortuneWheelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C011D01FB1287B004B34F1 /* Build configuration list for PBXNativeTarget "FortuneWheelTests" */;
+			buildPhases = (
+				8E7CD87854992430564ED651 /* [CP] Check Pods Manifest.lock */,
+				58C011B51FB1287B004B34F1 /* Sources */,
+				58C011B61FB1287B004B34F1 /* Frameworks */,
+				58C011B71FB1287B004B34F1 /* Resources */,
+				1DBE547B0C0F0522BBE1DE0A /* [CP] Embed Pods Frameworks */,
+				1D8B6BB2DD9D7256DBFCEC73 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58C011BB1FB1287B004B34F1 /* PBXTargetDependency */,
+			);
+			name = FortuneWheelTests;
+			productName = FortuneWheelTests;
+			productReference = 58C011B91FB1287B004B34F1 /* FortuneWheelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58C011C31FB1287B004B34F1 /* FortuneWheelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C011D31FB1287B004B34F1 /* Build configuration list for PBXNativeTarget "FortuneWheelUITests" */;
+			buildPhases = (
+				6C52635DB84B6470F2516639 /* [CP] Check Pods Manifest.lock */,
+				58C011C01FB1287B004B34F1 /* Sources */,
+				58C011C11FB1287B004B34F1 /* Frameworks */,
+				58C011C21FB1287B004B34F1 /* Resources */,
+				5AC2C3B81FE5E2670E36F2DD /* [CP] Embed Pods Frameworks */,
+				2D0B5C281C2E3ED882AAA77C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58C011C61FB1287B004B34F1 /* PBXTargetDependency */,
+			);
+			name = FortuneWheelUITests;
+			productName = FortuneWheelUITests;
+			productReference = 58C011C41FB1287B004B34F1 /* FortuneWheelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58C0119A1FB1287A004B34F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Yogesh Kohli";
+				TargetAttributes = {
+					58C011A11FB1287A004B34F1 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					58C011B81FB1287B004B34F1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58C011A11FB1287A004B34F1;
+					};
+					58C011C31FB1287B004B34F1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58C011A11FB1287A004B34F1;
+					};
+				};
+			};
+			buildConfigurationList = 58C0119D1FB1287A004B34F1 /* Build configuration list for PBXProject "FortuneWheel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58C011991FB1287A004B34F1;
+			productRefGroup = 58C011A31FB1287A004B34F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58C011A11FB1287A004B34F1 /* FortuneWheel */,
+				58C011B81FB1287B004B34F1 /* FortuneWheelTests */,
+				58C011C31FB1287B004B34F1 /* FortuneWheelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58C011A01FB1287A004B34F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C011B31FB1287A004B34F1 /* LaunchScreen.storyboard in Resources */,
+				58C011B01FB1287A004B34F1 /* Assets.xcassets in Resources */,
+				589AE6551FC23FAE001A864A /* Data.plist in Resources */,
+				58ED133B1FD753C5009B63EB /* Spin.plist in Resources */,
+				584378E21FE3C7E7001958B7 /* sound.mp3 in Resources */,
+				58C011AB1FB1287A004B34F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C011B71FB1287B004B34F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C011C21FB1287B004B34F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D8B6BB2DD9D7256DBFCEC73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortuneWheelTests/Pods-FortuneWheelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DBE547B0C0F0522BBE1DE0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortuneWheelTests/Pods-FortuneWheelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D0B5C281C2E3ED882AAA77C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortuneWheelUITests/Pods-FortuneWheelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		384A2B7A91EE9FF7593FED44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FortuneWheel/Pods-FortuneWheel-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortuneWheel/Pods-FortuneWheel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC2C3B81FE5E2670E36F2DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortuneWheelUITests/Pods-FortuneWheelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69325BFC07DC68DABD50B78B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortuneWheel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C52635DB84B6470F2516639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortuneWheelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E7CD87854992430564ED651 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortuneWheelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E139C93331C1207445344272 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FortuneWheel/Pods-FortuneWheel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SpinWheelControl/SpinWheelControl.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SpinWheelControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortuneWheel/Pods-FortuneWheel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58C0119E1FB1287A004B34F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58EF1CBC1FB2EA8700EE4436 /* FWNewGameViewController.swift in Sources */,
+				58ED13371FD740E3009B63EB /* FWScoreTableViewCell.swift in Sources */,
+				58B137A91FB14098004CB4BD /* FWMenuOptionsTableViewCell.swift in Sources */,
+				58ED13321FD72E8E009B63EB /* FWHelpViewController.swift in Sources */,
+				58ED13301FD72E85009B63EB /* FWAboutViewController.swift in Sources */,
+				58C011AE1FB1287A004B34F1 /* FortuneWheel.xcdatamodeld in Sources */,
+				58B137A71FB1408E004CB4BD /* FWMenuProfileTableViewCell.swift in Sources */,
+				5803A5971FCDF1DE001A82D4 /* FWFinishGameViewController .swift in Sources */,
+				5870B05F1FBA4C02006A7DC0 /* FWGamePlayingViewController.swift in Sources */,
+				58C011EE1FB129A8004B34F1 /* FWConstant.swift in Sources */,
+				58B561421FB137190056B717 /* FWSlideOutLeftMenuViewController.swift in Sources */,
+				58EBB76D1FC0C4E800FC99C7 /* FWWordCollectionViewCell.swift in Sources */,
+				58B5613F1FB136390056B717 /* FWBaseClassViewController.swift in Sources */,
+				58EF1CBE1FB2EAD000EE4436 /* FWCustomButton.swift in Sources */,
+				58ED13391FD740F4009B63EB /* FWSpacingTableViewCell.swift in Sources */,
+				58B5613C1FB136180056B717 /* FWMainViewController.swift in Sources */,
+				58B137AB1FB14163004CB4BD /* FWMenuSpacingTableViewCell.swift in Sources */,
+				58EF1CB81FB2677100EE4436 /* FWCustomLabel.swift in Sources */,
+				58ED13341FD73E91009B63EB /* FWScoreViewController.swift in Sources */,
+				580E97D11FB4E4D5004089D4 /* FWSpinningWheelViewController.swift in Sources */,
+				58C011A61FB1287A004B34F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C011B51FB1287B004B34F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C011BE1FB1287B004B34F1 /* FortuneWheelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C011C01FB1287B004B34F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C011C91FB1287B004B34F1 /* FortuneWheelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58C011BB1FB1287B004B34F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58C011A11FB1287A004B34F1 /* FortuneWheel */;
+			targetProxy = 58C011BA1FB1287B004B34F1 /* PBXContainerItemProxy */;
+		};
+		58C011C61FB1287B004B34F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58C011A11FB1287A004B34F1 /* FortuneWheel */;
+			targetProxy = 58C011C51FB1287B004B34F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58C011A91FB1287A004B34F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C011AA1FB1287A004B34F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58C011B11FB1287A004B34F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C011B21FB1287A004B34F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58C011CB1FB1287B004B34F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58C011CC1FB1287B004B34F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58C011CE1FB1287B004B34F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57484DEF5DF83767645AC7BF /* Pods-FortuneWheel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7U729472V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManagerSwift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/JSONModel\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SideMenu\"",
+					"$(PROJECT_DIR)/",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/FortuneWheel/Assets&Storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yogesh.FortuneWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FortuneWheel/Resources/Reachability/FortuneWheel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58C011CF1FB1287B004B34F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FBDFAC3549B26AB36BD364D /* Pods-FortuneWheel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7U729472V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManagerSwift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/JSONModel\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SideMenu\"",
+					"$(PROJECT_DIR)/",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/FortuneWheel/Assets&Storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yogesh.FortuneWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FortuneWheel/Resources/Reachability/FortuneWheel-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58C011D11FB1287B004B34F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A755D34096F9B82089517031 /* Pods-FortuneWheelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortuneWheelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yogesh.FortuneWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortuneWheel.app/FortuneWheel";
+			};
+			name = Debug;
+		};
+		58C011D21FB1287B004B34F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF1890F93FDD365BB934656 /* Pods-FortuneWheelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortuneWheelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yogesh.FortuneWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortuneWheel.app/FortuneWheel";
+			};
+			name = Release;
+		};
+		58C011D41FB1287B004B34F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C06C1F5A76F5E568727051 /* Pods-FortuneWheelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortuneWheelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yogesh.FortuneWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FortuneWheel;
+			};
+			name = Debug;
+		};
+		58C011D51FB1287B004B34F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC60486AFF015FDD5AF5EE9F /* Pods-FortuneWheelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FortuneWheelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yogesh.FortuneWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FortuneWheel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58C0119D1FB1287A004B34F1 /* Build configuration list for PBXProject "FortuneWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C011CB1FB1287B004B34F1 /* Debug */,
+				58C011CC1FB1287B004B34F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C011CD1FB1287B004B34F1 /* Build configuration list for PBXNativeTarget "FortuneWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C011CE1FB1287B004B34F1 /* Debug */,
+				58C011CF1FB1287B004B34F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C011D01FB1287B004B34F1 /* Build configuration list for PBXNativeTarget "FortuneWheelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C011D11FB1287B004B34F1 /* Debug */,
+				58C011D21FB1287B004B34F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C011D31FB1287B004B34F1 /* Build configuration list for PBXNativeTarget "FortuneWheelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C011D41FB1287B004B34F1 /* Debug */,
+				58C011D51FB1287B004B34F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58C011AC1FB1287A004B34F1 /* FortuneWheel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58C011AD1FB1287A004B34F1 /* FortuneWheel.xcdatamodel */,
+			);
+			currentVersion = 58C011AD1FB1287A004B34F1 /* FortuneWheel.xcdatamodel */;
+			path = FortuneWheel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58C0119A1FB1287A004B34F1 /* Project object */;
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TV Show Title</key>
+	<array>
+		<string>AMERICAN DIGGER</string>
+		<string>WHEEL OF FORTUNE</string>
+		<string>JEOPARDY</string>
+		<string>AUCTION HUNTERS</string>
+		<string>LETS MAKE A DEAL</string>
+		<string>THE PRICE IS RIGHT</string>
+		<string>HOW I MET YOUR MOTHER</string>
+		<string>LOST IN SPACE</string>
+		<string>WHO WANTS TO BE A MILLIONARE</string>
+		<string>MAKE ME A SUPERMODEL</string>
+		<string>SHOWBIZ TONIGHT</string>
+		<string>THE BIGGEST LOSER</string>
+		<string>THE BIG BANG THEORY</string>
+	</array>
+	<key>Movie Title</key>
+	<array>
+		<string>A NIGHT AT THE OPERA</string>
+		<string>ABOUT LAST NIGHT</string>
+		<string>BLADE RUNNER</string>
+		<string>FROOTLOOSE</string>
+		<string>GONE GIRL</string>
+		<string>I AM LEGEND</string>
+		<string>FUN WITH DICK AND JANE</string>
+		<string>INDEPENDENCE DAY</string>
+		<string>JURASSIC PARK</string>
+		<string>LIFE OF PI</string>
+		<string>MONSTERS UNIVERSITY</string>
+		<string>MIDNIGHT RUN</string>
+		<string>RISKY BUSINESS</string>
+		<string>TEEN WOLF</string>
+		<string>THE BOOK OF LIFE</string>
+		<string>THE DA VINCI CODE</string>
+	</array>
+	<key>Food &amp; Drink</key>
+	<array>
+		<string>A DOLLOP OF YOGURT</string>
+		<string>A GLASS OF WATER</string>
+		<string>ALMOND MILK</string>
+		<string>APPLE RINGS</string>
+		<string>APPLES &amp; WALNUTS</string>
+		<string>BAKED CHICKEN WINGS</string>
+		<string>BANANA ICE CREAM</string>
+		<string>BEER &amp; WINE</string>
+		<string>BLACKBERRY PIE</string>
+		<string>BOILED BEANS</string>
+		<string>BREAKFAST &amp; LUNCH</string>
+		<string>CHICKEN SOUP</string>
+		<string>CHOCOLATE CHERRY SODA</string>
+		<string>CHOCOLATE TRUFFLES</string>
+		<string>EGG SALAD</string>
+		<string>FISH &amp; CHIPS</string>
+		<string>FRESH BASIL</string>
+		<string>FROZEN PEAS</string>
+		<string>GARLIC FRIED CHICKEN</string>
+		<string>FUNNEL CAKE</string>
+		<string>GREEN TEA</string>
+	</array>
+	<key>Thing</key>
+	<array>
+		<string>A BAD SCENE</string>
+		<string>A BARGAIN AT HALF THE PRICE</string>
+		<string>A BARGAIN BANG FOR YOUR BUCK</string>
+		<string>A CLASS ACT</string>
+		<string>A CLEAN SWEEP</string>
+		<string>A FISH OUT OF WATER</string>
+		<string>A GREAT BUY</string>
+		<string>A GOOD FIT</string>
+		<string>A KID AT HEART</string>
+		<string>A MILLION DOLLAR SMILE</string>
+		<string>A PIECE OF CAKE</string>
+		<string>A MOTHERS LOVE</string>
+		<string>A NEW TWIST</string>
+		<string>A WARM WELCOME</string>
+		<string>A FRESH START</string>
+		<string>A GREAT DEAL</string>
+		<string>ACADEMIC SCHOLARSHIP</string>
+		<string>ADVANCE NOTICE</string>
+	</array>
+</dict>
+</plist>
