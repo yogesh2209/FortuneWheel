@@ -12,6 +12,9 @@ import DateToolsSwift
 class FWScoreViewController: FWBaseClassViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
+    
+    var messageLabel = UILabel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         customiseUI()
@@ -24,7 +27,14 @@ class FWScoreViewController: FWBaseClassViewController, UITableViewDataSource, U
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.tableView.reloadData()
+       
+        if getDataFromUserDefaults()?.count == 0{
+            showMessageLabel()
+        }
+        else{
+            clearMessageLabel()
+            self.tableView.reloadData()
+        }
     }
     
     //MARK: Private Methods
@@ -32,16 +42,33 @@ class FWScoreViewController: FWBaseClassViewController, UITableViewDataSource, U
         tableView.tableFooterView = UIView()
         tableView.separatorColor = UIColor.clear
     }
+    //MARK: Private Methods
+    func showMessageLabel() {
+        messageLabel.isHidden = false
+        messageLabel = UILabel.init(frame: CGRect(x: 0, y: self.tableView.frame.size.height/2, width: self.view.bounds.size.width, height: self.view.bounds.size.height))
+        messageLabel.text = "No record found!"
+        messageLabel.textColor = UIColor.lightGray
+        messageLabel.numberOfLines = 0
+        messageLabel.textAlignment = .center
+        messageLabel.font = UIFont.init(name: "Palatino-Italic", size: 20.0)
+        messageLabel.sizeToFit()
+        tableView.isHidden = false
+        tableView.backgroundView = messageLabel
+        tableView.separatorStyle = .none
+    }
+    func clearMessageLabel() {
+        messageLabel.isHidden = true
+        self.tableView.isHidden = false
+    }
     func getDataFromUserDefaults() -> NSMutableArray? {
         let defaults = UserDefaults.standard
         if let storeData = defaults.object(forKey: "SCORE_DATA") as? NSMutableArray {
             return storeData
         }
         else{
-            //Show him error
-            self.alertMessage("Something went wrong, please try again later!")
+            showMessageLabel()
         }
-        return nil
+        return []
     }
     
     //MARK: UITableView DataSource
