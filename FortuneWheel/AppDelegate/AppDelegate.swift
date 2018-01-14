@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     }
     
     func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-        if(url.scheme!.isEqual("fb494894974213238")) {
+        if(url.scheme!.isEqual("fb527713114278309")) {
             return FBSDKApplicationDelegate.sharedInstance().application(
                 application,
                 open: url,
